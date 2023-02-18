@@ -18,7 +18,7 @@ object DogImages {
     suspend fun getImages(number: Int):List<String>{
         imageList+=DogApi.retrofitService.getDogs(number).imgSrcUrl
         currentIndex= imageList.lastIndex
-        return imageList.subList(imageList.lastIndex-number+1, currentIndex)
+        return imageList.subList(imageList.lastIndex-number+1, currentIndex+1)
     }
 
     suspend fun getNextImage():List<String>{
