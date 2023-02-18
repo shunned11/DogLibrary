@@ -7,7 +7,6 @@ import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Path
-import retrofit2.http.Query
 
 private val moshi = Moshi.Builder()
     .add(KotlinJsonAdapterFactory())
@@ -21,12 +20,12 @@ private val retrofit=Retrofit.Builder()
     .baseUrl(BASE_URL)
     .build()
 
-interface DogApiService{
+internal interface DogApiService{
     @GET("api/breeds/image/random/{number}")
     suspend fun getDogs(@Path("number") number:Int): DogProperty
 }
 
-object DogApi{
+internal object DogApi{
     val retrofitService:DogApiService by lazy{
         retrofit.create(DogApiService::class.java)
     }

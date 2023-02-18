@@ -1,7 +1,5 @@
 package com.example.dogimagelibrary
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 
 import com.example.dogimagelibrary.network.DogApi
 object DogImages {
