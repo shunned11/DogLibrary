@@ -1,6 +1,11 @@
 # DogLibrary
 A simple library to fetch random dog images of various breeds from the internet
 
+## Framework used for Testing
+`JUnit4` is the framework used for unit testing
+
+`mockk` is the framework used to mock objects
+
 ## Integrating into your project
 
 This library is available in [JitPack.io](https://jitpack.io/private#shunned11/DogLibrary) repository.
