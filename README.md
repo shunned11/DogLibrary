@@ -71,5 +71,5 @@ DogImages.getImage()
 ```
 
 ## Sample Project
-Please find a sample project to use this library [here](https://github.com/shunned11/SampleDogImagesApp)
+A sample project showing the use of this library can be found [here](https://github.com/shunned11/SampleDogImagesApp)
 
