@@ -1,5 +1,5 @@
 # DogLibrary
-A simple library to fetch random dog images of various breeds from the internet. This library has been implemted using the Singleton Design Pattern
+A simple library to fetch random dog images of various breeds from the internet. This library has been implememented using the Singleton Design Pattern
 
 ## Framework used for Testing
 `JUnit4` is the framework used for unit testing
