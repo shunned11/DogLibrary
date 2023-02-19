@@ -3,8 +3,10 @@ package com.example.dogimagelibrary
 
 import com.example.dogimagelibrary.network.DogApi
 object DogImages {
-    private var imageList= mutableListOf<String>()
-    var currentIndex:Int=0
+
+
+    internal var imageList= mutableListOf<String>()
+    var currentIndex:Int=-1
         private set
 
 
