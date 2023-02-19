@@ -12,7 +12,6 @@ object DogImages {
         imageList += (DogApi.retrofitService.getDogs(1).imgSrcUrl)
         currentIndex= imageList.lastIndex
         return listOf(imageList[currentIndex])
-        val x=Math.abs(0)
      }
 
     suspend fun getImages(number: Int):List<String>{
